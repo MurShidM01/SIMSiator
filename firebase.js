@@ -25,13 +25,13 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "Your Firebase Project APIKey",
-  authDomain: "Your Firebase Project AuthDomain",
-  projectId: "Your Firebase Project ID",
-  storageBucket: "Your Firebase Project Storage Bucket",
-  messagingSenderId: "Your Firebase Messaging Sender ID",
-  appId: "Your Firebase Project App ID",
-  measurementId: "Your Firebase Project Measurement ID"
+  apiKey: "AIzaSyBRGkJIePg4BFhb09qyfbbL1shEDY1vu94",
+  authDomain: "simsiator.firebaseapp.com",
+  projectId: "simsiator",
+  storageBucket: "simsiator.firebasestorage.app",
+  messagingSenderId: "44830488201",
+  appId: "1:44830488201:web:bef0193fcd7ac58b8ab858",
+  measurementId: "G-V54PXHT4GH"
 };
 
 // Initialize Firebase
