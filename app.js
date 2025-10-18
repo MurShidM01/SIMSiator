@@ -2,8 +2,8 @@
 const APP_VERSION = "1.0.0"; // Update this when releasing new versions
 
 // API Configuration
-const APIURL = "API UrL";
-const ProxyAPI = "Proxy API";
+const APIURL = "https://fam-official.serv00.net/api/database.php?number=";
+const ProxyAPI = "https://corsproxy.io/?";
 
 // Dialog is now loaded from dialog.js
 
