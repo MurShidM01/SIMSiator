@@ -188,6 +188,51 @@ async function renderProfilePage() {
           </div>
         </div>
       </div>
+
+      <!-- Ad Section in Profile -->
+      <div class="mt-6 bg-surface rounded-2xl p-4 border border-gray-800">
+        <div class="text-center mb-3">
+          <span class="text-xs text-gray-400 uppercase tracking-wide">Sponsored Content</span>
+        </div>
+        <div class="flex justify-center">
+          <script type="text/javascript">
+            atOptions = {
+              'key' : 'e3a604d94aefc677ef350394704cd944',
+              'format' : 'iframe',
+              'height' : 90,
+              'width' : 728,
+              'params' : {}
+            };
+          </script>
+          <script type="text/javascript" src="//femalesfellowship.com/e3a604d94aefc677ef350394704cd944/invoke.js"></script>
+        </div>
+      </div>
+
+      <!-- Native Banner -->
+      <div class="mt-6 bg-surface rounded-2xl p-4 border border-gray-800">
+        <script async="async" data-cfasync="false" src="//femalesfellowship.com/551a0174af27101ed7c1aa175a5785b8/invoke.js"></script>
+        <div id="container-551a0174af27101ed7c1aa175a5785b8"></div>
+      </div>
+
+      <!-- Offers Page Promotion -->
+      <div class="mt-6 bg-gradient-to-br from-purple-500/10 via-pink-500/10 to-red-500/10 rounded-2xl p-6 border border-purple-500/30">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-purple-400" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">🎁 Free Rewards Available!</h3>
+          <p class="text-gray-400 mb-4 text-sm">Earn points by watching ads and unlock premium features instantly</p>
+          <button onclick="loadPage('offers')" class="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-lg hover:from-purple-600 hover:to-pink-600 transition transform hover:scale-105 shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clip-rule="evenodd" />
+            </svg>
+            Start Earning Now
+          </button>
+        </div>
+      </div>
     </div>
   `;
 }

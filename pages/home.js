@@ -7,6 +7,11 @@ function renderHomePage() {
         <p class="text-gray-400">Enter a phone number to find detailed information</p>
       </div>
 
+      <!-- Banner 728x90 Ad -->
+      <div class="w-full flex justify-center mb-6 overflow-hidden">
+        <div id="home-ad-banner" class="inline-block min-h-[90px]"></div>
+      </div>
+
       <div class="bg-surface rounded-2xl shadow-lg p-6 border border-gray-800 slide-up">
         <div class="space-y-4">
           <div>
@@ -145,4 +150,28 @@ function initHomePage() {
       if (e.key === 'Enter' && !fetchBtn.disabled) fetchData();
     });
   }
+  
+  // Load home page ad
+  setTimeout(() => {
+    const container = document.getElementById('home-ad-banner');
+    if (container) {
+      const script1 = document.createElement('script');
+      script1.type = 'text/javascript';
+      script1.innerHTML = `
+        atOptions = {
+          'key' : 'e3a604d94aefc677ef350394704cd944',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      `;
+      container.appendChild(script1);
+      
+      const script2 = document.createElement('script');
+      script2.type = 'text/javascript';
+      script2.src = '//femalesfellowship.com/e3a604d94aefc677ef350394704cd944/invoke.js';
+      container.appendChild(script2);
+    }
+  }, 100);
 }

@@ -446,6 +446,9 @@ async function loadPage(pageName) {
       // Await the async profile page render
       content = await renderProfilePage();
       break;
+    case 'offers':
+      content = renderOffersPage();
+      break;
     default:
       content = renderHomePage();
   }
@@ -465,6 +468,13 @@ async function loadPage(pageName) {
       if (typeof initCountdownTimer === 'function') {
         console.log('Initializing countdown timer from app.js');
         initCountdownTimer();
+      }
+      break;
+    case 'offers':
+      // Initialize offers page ads
+      if (typeof initOffersPage === 'function') {
+        console.log('Initializing offers page ads from app.js');
+        initOffersPage();
       }
       break;
   }
